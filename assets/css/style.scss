@@ -1,4 +1,7 @@
-// links to other profiles/work beneath page title and profile picture
+---
+---
+
+@import "{{ site.theme }}";
 a {
   color:#6d6d6d;
   text-decoration:underline;
@@ -86,5 +89,3 @@ blockquote {
 .email:hover:after {
   content: "📧 gyk.jane@gmail.com";
 }
-
-@import "jekyll-theme-minimal";
