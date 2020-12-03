@@ -2,6 +2,26 @@
 ---
 
 @import "{{ site.theme }}";
+@font-face {
+  font-family: 'Menlo';
+  src: url('../fonts/Menlo/Menlo-Regular.eot');
+  src: local('Menlo Regular'), local('Menlo-Regular'),
+      url('../fonts/Menlo/Menlo-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Menlo/Menlo-Regular.woff2') format('woff2'),
+      url('../fonts/Menlo/Menlo-Regular.woff') format('woff'),
+      url('../fonts/Menlo/Menlo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #fff;
+  padding:50px;
+  font: 12px/1.5 'Menlo', Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight:400;
+}
+
 a {
   color:#6d6d6d;
   text-decoration:underline;
