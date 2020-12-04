@@ -10,7 +10,7 @@ for the topics below, include github source link and github page link.
 <br/>
 
 #### data science
-* [Color and music project]()
+* [Color and music project](color-project)
 > A visual representation of music and an auditory representation of color and other things lmfao  
 > want to implement ML to create better sounding music from the painting -> music conversion.
 > for instance, van gogh listened primarly to this one artist whose name escapes me. i wonder what a sound produced from van gogh's painting would sound like if the rhythmic pattterns the producer's songs were applied to van gogh's paintings?
